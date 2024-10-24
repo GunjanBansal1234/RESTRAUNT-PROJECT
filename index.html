@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SECOND PSD</title>
+    <meta name="description" content="Restaurant WEBSITE 12 GRIDS">
+
+    <link rel="icon" href="img/man2.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="row">
+                <div class="col-4">
+                    <p>YourLogo</p>
+
+                </div>
+                <div class="col-8">
+                    <div class="flex justify-space-bet align-center ">
+                        <i class="fa-solid fa-bars" id="toggle-button"></i>
+                        <nav id="menu" class="menu">
+                            <ul>
+                                <li><a href="">Home</a></li>
+                                <li><a href="">Menu</a></li>
+                                <li><a href="">About Us</a></li>
+                                <li><a href="">Contact</a></li>
+
+                            </ul>
+                        </nav>
+                        <button class="sign" onclick="openForm()">Sign Up</button>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <div class="form-popup" id="myForm">
+
+        <form>
+            <div class="mb1">
+                <div class="mb">
+                    <label>Name: <input type="text" required></label>
+                </div>
+                <div class="mb"><label>Email: <input type="email" required></label></div>
+                <div class="mb"><label>Phone: <input type="tel" required></label></div>
+                <div class="mb"><button class="btn">Sign Up</button>
+                    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-m-8">
+                    <p>Eat, drink and Enjoy. </p>
+                    <h3>Your Restaurant is Waiting For You</h3>
+                    <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur, aliquam quibusdam amet
+                        consectetur adipisicing elit. </h4>
+                    <div class="menu">
+                        <a href="">Explore</a>
+                        <span>See Menu</span>
+
+                    </div>
+
+                </div>
+                <div class="col-6 col-m-4">
+                    <div class="wrap-banner">
+                        <img src="img/banner.png" data-aos="zoom-in" alt="banner" width="992" height="821">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrap-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p>Delicious</p>
+                    <h2>Food Categories</h2>
+                </div>
+                <div class="col-4 col-p-12 col-m-12" data-aos="zoom-in-down">
+                    <div class="fish-wrap">
+                        <figure>
+                        <img src="img/fish.png" alt="fish" width="159" height="159">
+                        
+                    <figcaption>
+                            <p class="meat">Meat</p>
+                            <p class="meat-dummy">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum,
+                                delectus. Aspernatur, quibusdam ex iste ab quod soluta tempora rem, debitis corporis
+                                magnam explicabo vero quam? Omnis reiciendis doloremque dolorem earum.</p>
+                            <a href="">See More</a>
+
+                        </figcaption>
+                    </figure>
+                    </div>
+                </div>
+                <div class="col-4 col-p-12 col-m-12" data-aos="zoom-in-down">
+                    <div class="fish-wrap">
+                        <figure>
+                        <img src="img/fish1.png" alt="fish" width="159" height="159">
+                        <figcaption>
+                            <p class="meat">Fish</p>
+                            <p class="meat-dummy">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum,
+                                delectus. Aspernatur, quibusdam ex iste ab quod soluta tempora rem, debitis corporis
+                                magnam explicabo vero quam? Omnis reiciendis doloremque dolorem earum.</p>
+                            <a href="">See More</a>
+
+                        </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-4 col-p-12 col-m-12" data-aos="zoom-in-down">
+                    <div class="fish-wrap col-m-12">
+                        <figure>
+                        <img src="img/drink.png" alt="fish" width="159" height="159">
+                        <figcaption>
+                            <p class="meat col-p-12">Drinks</p>
+                            <p class="meat-dummy">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum,
+                                delectus. Aspernatur, quibusdam ex iste ab quod soluta tempora rem, debitis corporis
+                                magnam explicabo vero quam? Omnis reiciendis doloremque dolorem earum.</p>
+                            <a href="">See More</a>
+
+                        </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="wrap-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-center-wrap-1">
+                        <p>COVID-19 Protocol</p>
+                        <h2>We care about you</h2>
+                        <a href="">Read more</a>
+                    </div>
+                </div>
+                <div class="col-12 text-center">
+                    <img src="img/man-wrap-2.png" alt="" data-aos="zoom-out">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="wrap-3" data-aos="zoom-in">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-m-12">
+                    <div class="wrap-3-top">
+                        <p>story</p>
+                        <h2>Our Restraunt</h2>
+                        <p class="wrap-3-dummy top-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Delectus eaque
+                            voluptatibus earum corrupti atque. Recusandae ullam exercitationem voluptatibus eum natus
+                            optio
+                            officiis fugit, aspernatur nostrum ipsa rem dignissimos doloremque consectetur!</p>
+                        <a href="">Read more</a>
+                    </div>
+
+                </div>
+                <div class="col-6 col-m-12">
+                    <div class="top-3-center">
+
+                        <img src="img/wrap-3.png" alt="bar" width="604" height="509">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrap-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-m-12">
+                    <div class="top-center-wrap-4">
+
+                        <img src="img/fish-bg.png" alt="fish-bg" data-aos="zoom-in" width="685" height="582">
+                    </div>
+                </div>
+                <div class="col-6 col-m-12">
+                    <div class="top-3-center">
+
+                        <p>Ingredients</p>
+                        <h2>Fresh and healthy ingredients</h2>
+                        <p class="wrap-3-dummy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eaque
+                            voluptatibus earum corrupti atque. Recusandae ullam exercitationem voluptatibus eum natus
+                            optio
+                            officiis fugit, aspernatur nostrum ipsa rem dignissimos doloremque consectetur!</p>
+                        <a href="">Read more</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="wrap-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="white-card">
+                        <div class="row">
+                            <div class="col-6 col-m-12">
+                                <div class="top-wrap-5 top-3-center">
+
+
+                                    <p>Words From</p>
+                                    <h2>The Chef</h2>
+                                    <p class="wrap-3-dummy">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Delectus eaque
+                                        voluptatibus earum corrupti atque. Recusandae ullam exercitationem voluptatibus
+                                        eum natus optio
+                                        officiis fugit, aspernatur nostrum ipsa rem dignissimos doloremque consectetur!
+                                    </p>
+                                </div>
+                                <a href="">Read more</a>
+                            </div>
+
+
+                            <div class="col-6 col-m-12 center">
+                                <img src="img/shap.png" data-aos="zoom-in" alt="shape" width="722" height="595">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrap-6" data-aos="zoom-in-up">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p>What our</p>
+                    <h2>Customers Say</h2>
+                </div>
+
+                <div class="col-6 col-m-12">
+                    <div class="white-card">
+                        <div class="row">
+                            <div class="col-6 col-m-12 wrap-6-center">
+                                <img src="img/man2.png" alt="man4" width="173" height="174">
+                            </div>
+                            <div class="col-6 col-m-12 wrap-6-center">
+                                <h1>Jhon Smith</h1>
+                                <p class="dummy-6" id="dum8">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-6 col-m-12">
+                    <div class="white-card">
+                        <div class="row">
+                            <div class="col-6 col-m-12 wrap-6-center">
+                                <img src="img/man2.png" alt="man4" width="173" height="174">
+                            </div>
+                            <div class="col-6 col-m-12 wrap-6-center">
+                                <h1>Jhon Smith</h1>
+                                <p class="dummy-6" id="dum3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-6 col-m-12">
+                    <div class="white-card">
+                        <div class="row">
+                            <div class="col-6 col-m-12 wrap-6-center">
+                                <img src="img/man2.png" alt="man4" width="173" height="174">
+                            </div>
+                            <div class="col-6 col-m-12 wrap-6-center">
+                                <h1>Jhon Smith</h1>
+                                <p class="dummy-6" id="dum2">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-6 col-m-12">
+                    <div class="white-card">
+                        <div class="row">
+                            <div class="col-6 col-m-12 wrap-6-center">
+                                <img src="img/man2.png" alt="man4" width="173" height="174">
+                            </div>
+                            <div class="col-6 col-m-12 wrap-6-center">
+                                <h1>Jhon Smith</h1>
+                                <p class="dummy-6" id="dum1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+    <div class="wrap-7">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 ">
+                    <div class="wrap-7-heading">
+                        <h2>Subscribe</h2>
+                        <p>To Our Newsletter</p>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="wrap-7-input">
+                        <input type="text"  placeholder="NAME">
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="wrap-7-input">
+                        <input type="text"  placeholder="EMAIL">
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="wrap-7-input">
+                        <textarea rows="10" cols="15" name="blog"></textarea>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="wrap-7-input">
+                        <button>SEND MESSAGE</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer data-aos="zoom-in-up">
+
+        <div class="wrap-8">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 col-p-6 col-m-6">
+                        <h1>About</h1>
+                        <nav>
+                            <ul>
+                                <li><a href="">History</a></li>
+                                <li><a href="">Our Team</a></li>
+                                <li><a href="">Mission Statement</a></li>
+                                <li><a href="">Term & Conditions</a></li>
+                                <li><a href="">Privacy Policy</a></li>
+
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-4 col-p-6 col-m-6">
+                        <h1>What we do</h1>
+                        <nav>
+                            <ul>
+                                <li><a href="">News and stories</a></li>
+                                <li><a href=""> Publications</a></li>
+                                <li><a href="">Take action</a></li>
+                                <li><a href="">Recomendations</a></li>
+                                <li><a href="">Help</a></li>
+
+                            </ul>
+                        </nav>
+
+                    </div>
+                    <div class="col-4 col-p-12 col-m-12">
+                        <h1>Sign Up To Receive Our Newsletter</h1>
+                        <input type="search" id="search">
+                        <div class="follow">
+                            <span class="us">Follow Us!</span>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-youtube"></i>
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+    <div class="wrap-9">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p>YOULOGO@GMAIL.COM</p>
+                </div>
+                <button class="top"><i class="fa-solid fa-caret-up"></i></button>
+
+            </div>
+        </div>
+
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script>
+        AOS.init();
+        document.getElementById('toggle-button').addEventListener('click', function () {
+            const menu = document.getElementById('menu');
+            menu.classList.toggle('active');
+        });
+        function openForm() {
+            document.getElementById("myForm").style.display = "block";
+        }
+
+        function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+        }
+
+
+        $(".top").click(function () {
+            $(window).scrollTop(0)
+
+        })
+
+
+    </script>
+
+</body>
+
+
+
+
+</html>
